@@ -1,3 +1,6 @@
+*{
+  font-family: Impact, "Charcoal", sans-serif;
+}
 body {
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/09/Notre_Dame_Cathedral_Ho_Chi_Minh_city_%2839543912241%29.jpg');
   background-repeat: no-repeat;
@@ -11,11 +14,16 @@ h1 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
+  color: yellow;
 }
 
 .banner {
   background-color: red;
-  color: yellow;
   list-style: none;
   text-align: center;
+}
+
+.banner li {
+  display: inline-block;
+  color: yellow;
 }
