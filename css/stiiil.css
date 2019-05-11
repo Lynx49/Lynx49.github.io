@@ -30,7 +30,8 @@ h1 {
 }
 .banner li a {
   display: inline-block;
-  padding: 10px 10%;
+  padding: 10px 10px;
+  margin: 0 10%;
   text-decoration: none;
   color: inherit;
 }
@@ -56,7 +57,7 @@ h1 {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px), (orientation: portrait) {
   .banner li a {
     margin: 0;
     display: block;
