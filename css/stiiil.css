@@ -19,9 +19,6 @@ h1 {
   background-color: red;
   list-style: none;
   text-align: center;
-}
-
-ul {
   margin: 0;
   padding: 0;
   font-size: 20px;
@@ -29,8 +26,16 @@ ul {
 
 .banner li {
   display: inline-block;
-  padding: 10px 10%;
   color: yellow;
+}
+.banner li a {
+  display: block;
+  padding: 10px 10%;
+  text-decoration: none;
+  color: inherit;
+}
+.banner li a:hover {
+  color: white;
 }
 
 .textruta1 {
