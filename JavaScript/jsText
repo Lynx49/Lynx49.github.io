@@ -1,0 +1,3 @@
+function changeText() {
+document.getElementById("huvudtext").innerHTML = "Ho Chi Minh staden blev officiellt vietnamesisk 1698 och kallades både Saigon och Gia Định. Sedan kom så klart imperialismen 1859 till Vietnam, i form av franska kolonisatörer (Wesh le mec , les croissants). Fransmännen har haft signifikant inflytande på Vietnam under åren de styrde Vietnam, t.ex maträtter som Bánh mỹ och allt annat med något slags bröd. Arkitekturen, en massa byggnader byggdes med fransk arkitektur och står fortfarande kvar, kyrkan du ser där kallas också Notre Dame (så Notre Dame står tekniskt sätt fortfarande kvar)."
+}
