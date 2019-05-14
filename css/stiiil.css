@@ -4,16 +4,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/09/Notre_Dame_Cathedral_Ho_Chi_Minh_city_%2839543912241%29.jpg');
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: 100% 700px;
-}
-
-h1 {
-  color: yellow;
-}
 
 .banner {
   background-color: red;
@@ -30,7 +20,7 @@ h1 {
 }
 .banner li a {
   display: inline-block;
-  padding: 10px 10px;
+  padding: 10px;
   margin: 0 10%;
   text-decoration: none;
   color: inherit;
@@ -52,17 +42,61 @@ h1 {
   display: block;
 }
 
-.textruta1 {
-  background-color: rgba(255, 0, 0, 0.7);
-  width: 30%;
-  top: 10px;
-  position: relative;
+#bild {
+  position: absolute;
+  left: 33%;
+  width: 67%;
+  height: 600px;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
 }
 
 .bildsource {
   position: relative;
+  background-color: rgba(255, 0, 0, 0.9);
+  font-size: 20px;
+  padding: 10px;
+  bottom: 100px;
+  text-decoration: none;
+  color: yellow;
+}
+
+.bildsource:hover {
+  color: white;
+}
+
+.textruta1 {
+  background-color: rgba(255, 0, 0, 0.7);
+  width: 33%;
+  border-style: double double none none;
+  border-color: yellow;
+  position: relative;
+  padding: 10px;
+  height: 600px;
+  text-align: center;
+}
+
+h1 {
+  color: yellow;
+}
+
+.textruta1 button {
+  position: relative;
   top: 10px;
   font-size: 20px;
+  border-style: none none double none;
+  border-color: yellow;
+  background: none;
+  cursor: pointer;
+}
+
+.textruta1 button:hover {
+  border-color: white;
+  color: white;
 }
 
 @media screen and (max-width: 900px) {
