@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow: hidden;
+}
+
 .banner {
   background-color: red;
   list-style: none;
@@ -113,6 +117,10 @@ h1 {
 }
 
 @media screen and (max-width: 600px), (orientation: portrait) {
+  body {
+    overflow: auto;
+  }
+
   .banner {
     position: fixed;
     font-size: 50px;
