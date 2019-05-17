@@ -2,7 +2,8 @@
 var paragrafIndex = 0;
 var paragrafer = [
 "Ho Chi Minh staden, som kommunisterna från norden kallar det eller helt enkelt Saigon i allmänhet (du bestämmer) är den mest befolkade staden i Vietnam. Ho Chi Minh staden har gått igenom många olika styren och namn under tiderna. Den tidigaste bosättningen runt om Saigon området etablerades av champafolket under 1000-talet vid namn Baigaur, vilket senare blev del av Khmerriket under namnet Prey Nokor. Ho Chi Minh staden var del av Khmerriket under hundratals år och började bli Vietnamesisk först under 1600-talet.",
-"Ho Chi Minh staden blev officiellt vietnamesisk 1698 och kallades både Saigon och Gia Định. Sedan kom så klart imperialismen 1859 till Vietnam, i form av franska kolonisatörer (Wesh le mec , les croissants). Fransmännen har haft signifikant inflytande på Vietnam under åren de styrde Vietnam, t.ex maträtter som Bánh mỹ och allt annat med något slags bröd. Arkitekturen, en massa byggnader byggdes med fransk arkitektur och står fortfarande kvar, kyrkan du ser där kallas också Notre Dame (så Notre Dame står tekniskt sätt fortfarande kvar)."
+"Ho Chi Minh staden blev officiellt vietnamesisk 1698 och kallades både Saigon och Gia Định. Sedan kom så klart imperialismen 1859 till Vietnam, i form av franska kolonisatörer (Wesh le mec , les croissants). Fransmännen har haft signifikant inflytande på Vietnam under åren de styrde Vietnam, t.ex maträtter som Bánh mỹ och allt annat med något slags bröd. Arkitekturen, en massa byggnader byggdes med fransk arkitektur och står fortfarande kvar, kyrkan du ser där kallas också Notre Dame (så Notre Dame står tekniskt sätt fortfarande kvar).",
+"Efter andra världskriget hade en man vid Ho Chi Minh dykt upp och blivit ledaren över kommunisterna och frihetskämparna, de friade norra Vietnam från franskt styre medan syd förblev franskt och kapitalistiskt. Så klart påbörjades Vietnamkriget på 50-talet och varade runt 20 år tills Saigon förlorades till nordvietnameserna 1976, Vietnam blev förenat och Saigon döptes om till Ho Chi Minh staden. För att vara tydlig förlorade amerikanerna inte, de vann faktiskt men sen stack de bara. Sydvietnam var dessutom rätt så rikt och kunde lätt ha blivit som Sydkorea men istället drogs de ner som Kina under Mao. Ha det så kul med den faktan. Sedan 90-talet har Vietnam ändrat om sin ekonomi och är nu en av de snabbast växande ekonomierna i världen, byggnader som Landmark 81 (Nuvarande bild) är för nuvarande världens 14:de högsta byggnad och är ett definitivt bevis på hopp och en bra framtid."
 ];
 
 //ändrar vilken paragraf som ska visas
@@ -14,9 +15,11 @@ function changeText() {
     document.getElementById("huvudtext").innerHTML = paragrafer[paragrafIndex];
 
     if (paragrafIndex >= (paragrafer.length/2)) {
-        document.getElementById("bilden").src = "https://upload.wikimedia.org/wikipedia/commons/c/c6/LM81_NhonHuynh_5-8-2018.jpg";
+        document.getElementById("bilden").src = "../image/landmark81.jpg";
+        document.getElementById("bildsource").href = "https://commons.wikimedia.org/wiki/File:LM81_NhonHuynh_5-8-2018.jpg";
     }
     else {
-        document.getElementById("bilden").src = "https://upload.wikimedia.org/wikipedia/commons/0/09/Notre_Dame_Cathedral_Ho_Chi_Minh_city_%2839543912241%29.jpg";
+        document.getElementById("bilden").src = "../image/notredame.jpg";
+        document.getElementById("bildsource").href = "https://commons.wikimedia.org/wiki/File:Notre_Dame_Cathedral_Ho_Chi_Minh_city_(39543912241).jpg";
     }
 }
