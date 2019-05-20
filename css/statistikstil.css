@@ -1,0 +1,88 @@
+*{
+  font-family: 'Anton', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 75, 75);
+  text-align: center;
+}
+
+.banner {
+  background-color: red;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.banner li {
+  display: inline;
+  color: yellow;
+}
+
+.banner li a {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 10%;
+  text-decoration: none;
+  color: inherit;
+}
+
+.banner li a:hover {
+  color: white;
+}
+
+.grid {
+  position: relative;
+  color: yellow;
+  display: grid;
+}
+/* v koden för mappen v*/
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 400px;
+  width: 800px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 100%;
+  width: 100%;
+}
+/*
+#gmap_canvas {
+
+}
+*/
+/* ^ koden för mappen ^ */
+
+@media screen and (max-width: 900px) {
+  .banner li a {
+  margin: 0 5%;
+  }
+}
+
+@media screen and (max-width: 600px), (orientation: portrait) {
+  .banner {
+    position: fixed;
+    font-size: 50px;
+    z-index: 2;
+    width: 100%;
+  }
+
+  .banner li a {
+    margin: 0;
+    display: block;
+    border-style: none none double none;
+  }
+
+  .grid {
+    top: 294px;
+  }
+}
