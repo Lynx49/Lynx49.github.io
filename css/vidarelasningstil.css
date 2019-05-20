@@ -52,6 +52,7 @@ body {
 .grid {
   position: relative;
   color: yellow;
+  display: grid;
 }
 
 @media screen and (max-width: 900px) {
