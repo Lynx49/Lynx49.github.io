@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgb(255, 75, 75);
+  background-color: rgb(200, 0, 0);
   text-align: center;
 }
 
@@ -46,6 +46,11 @@ body {
 .box {
   border-style: solid;
   width: 70%;
+  background-color: rgb(255, 75, 75);
+}
+
+iframe {
+  padding: 10px;
 }
 
 @media screen and (max-width: 900px) {
@@ -56,6 +61,7 @@ body {
   .box {
     width: 80%;
   }
+
   iframe {
     width: 80%;
   }
@@ -77,5 +83,10 @@ body {
 
   .grid {
     top: 294px;
+    font-size: 35px;
+  }
+
+  .box {
+    width: 90%;
   }
 }
