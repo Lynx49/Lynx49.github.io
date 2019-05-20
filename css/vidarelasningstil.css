@@ -40,11 +40,24 @@ body {
   position: relative;
   color: yellow;
   display: grid;
+  justify-items: center;
+}
+
+.box {
+  border-style: solid;
+  width: 70%;
 }
 
 @media screen and (max-width: 900px) {
   .banner li a {
   margin: 0 5%;
+  }
+
+  .box {
+    width: 80%;
+  }
+  iframe {
+    width: 80%;
   }
 }
 
@@ -61,7 +74,7 @@ body {
     display: block;
     border-style: none none double none;
   }
-  
+
   .grid {
     top: 294px;
   }
