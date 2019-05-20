@@ -36,19 +36,6 @@ body {
   color: white;
 }
 
-.dropdown-links {
-  display: none;
-  position: absolute;
-  background-color: red;
-  width: 33%;
-  z-index: 1;
-  border-style: double none none none;
-}
-
-.dropdown:hover .dropdown-links {
-  display: block;
-}
-
 .grid {
   position: relative;
   color: yellow;
@@ -74,18 +61,7 @@ body {
     display: block;
     border-style: none none double none;
   }
-
-  .dropdown-links {
-    position: relative;
-    width: 100%;
-    text-align: center;
-    background-color: rgb(200, 0, 0);
-  }
-
-  .dropdown:hover .dropdown-links {
-    display: inline-block;
-  }
-
+  
   .grid {
     top: 294px;
   }
