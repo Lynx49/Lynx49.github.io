@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgb(255, 75, 75);
+  background-color: rgb(200, 0, 0);
   text-align: center;
 }
 
@@ -36,30 +36,39 @@ body {
   color: white;
 }
 
+.karta {
+  position: relative;
+  color: yellow;
+  border-style: solid;
+  width: 80%;
+  margin-left: 10%;
+  background-color: rgb(255, 75, 75);
+  padding: 0 0 10px 0;
+}
+
 .grid {
   position: relative;
   color: yellow;
   display: grid;
 }
-/* v koden för mappen v*/
+/* v koden för kartan, som jag har försökt göra några ändringar på v */
 .mapouter {
   position: relative;
   text-align: right;
   height: 400px;
   width: 75%;
+  margin-left: 12.5%;
 }
 
 .gmap_canvas {
   overflow: hidden;
   background: none !important;
-  height: 100%;
-  width: 100%;
 }
 
 #gmap_canvas {
-  width: 75%;
+  width: 100%;
 }
-/* ^ koden för mappen ^ */
+/* ^ koden för kartan ^ */
 
 @media screen and (max-width: 900px) {
   .banner li a {
@@ -79,6 +88,10 @@ body {
     margin: 0;
     display: block;
     border-style: none none double none;
+  }
+
+  .karta {
+    top: 294px;
   }
 
   .grid {
