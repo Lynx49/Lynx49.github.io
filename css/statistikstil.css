@@ -10,6 +10,11 @@ body {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: yellow;
+}
+
 .banner {
   background-color: red;
   list-style: none;
@@ -28,8 +33,6 @@ body {
   display: inline-block;
   padding: 10px;
   margin: 0 10%;
-  text-decoration: none;
-  color: inherit;
 }
 
 .banner li a:hover {
