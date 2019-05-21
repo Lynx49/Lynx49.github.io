@@ -95,6 +95,7 @@ body {
   border-color: yellow;
   background: none;
   cursor: pointer;
+  outline: inherit;
 }
 
 .textruta button:hover {
