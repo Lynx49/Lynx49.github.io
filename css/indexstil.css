@@ -46,6 +46,8 @@ a {
   text-align: center;
   /*hindrar extra margin i firefox*/
   line-height: 0;
+  /*hindrar extra 1px margin*/
+  margin-top: -1px;
 }
 
 .bildruta img {
